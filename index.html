@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Social Media</h1>
+    <input type="text" placeholder="Search..." class="search-bar">
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+    </div>
+  </header>
+
+  <main>
+    <div class="post-box">
+      <textarea placeholder="What's on your mind?" class="post-input"></textarea>
+      <button onclick="createPost()">Post</button>
+    </div>
+    <div id="feed" class="feed">
+      <!-- Posts will appear here -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
